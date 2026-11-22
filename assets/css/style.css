@@ -230,3 +230,8 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--burgundy); 
 .site-header { border-bottom: 3px solid var(--burgundy); }
 .foot-logo img { width: auto; }
 .brand-mark { background: #fff; padding: 10px 16px; border-radius: 10px; box-sizing: content-box; }
+.map-wrap { margin-top: 28px; border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); border: 1px solid var(--line); background: #e9e4e4; }
+.map-wrap iframe { display: block; width: 100%; height: 420px; border: 0; }
+@media (max-width: 640px) { .map-wrap iframe { height: 320px; } }
+.small-office { padding: 14px 18px; }
+.small-office h3 { font-size: 1rem; }
