@@ -215,3 +215,18 @@ input:focus, select:focus, textarea:focus { outline: 2px solid var(--burgundy); 
 /* Keep tall photos in split layouts to a sensible height */
 .split img { width: 100%; max-height: 480px; object-fit: cover; }
 @media (max-width: 640px) { .topbar .container > span:first-child { display: none; } .topbar .container { justify-content: center; } }
+
+/* Group brand band */
+.brand-band { background: var(--burgundy-soft); }
+.brand-mark { height: 56px; width: auto; margin: 0 auto 18px; }
+.group-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-top: 32px; }
+.group-co { background: #fff; border-radius: var(--radius); padding: 22px; border-top: 4px solid var(--burgundy); box-shadow: var(--shadow); }
+.group-co h3 { font-size: 1.05rem; color: var(--burgundy-dark); }
+.group-co p { margin: 0; color: var(--ink-2); font-size: .95rem; }
+@media (max-width: 860px) { .group-grid { grid-template-columns: 1fr; } }
+/* Burgundy footer and header accent */
+.site-footer { background: #3a0f17; color: #e3cdd1; }
+.foot-bottom { border-top-color: #5a2430; color: #cfb3b8; }
+.site-header { border-bottom: 3px solid var(--burgundy); }
+.foot-logo img { width: auto; }
+.brand-mark { background: #fff; padding: 10px 16px; border-radius: 10px; box-sizing: content-box; }
