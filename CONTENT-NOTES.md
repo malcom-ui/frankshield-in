@@ -14,12 +14,13 @@
 - Non-medical references from the decks (AMMROC, SCIF projects, Ministry of Education operations centre, KFUPM).
 - Prices, and personal or family photos.
 
-## Please confirm
-1. **Enquiry email.** The site uses `info@frankshield.in` as a placeholder. Change it in every HTML file and in the `data-email` attribute on `contact.html`, or tell Claude the correct address.
-2. **Warranty.** The site says "10-year limited warranty on RF shielding effectiveness". The decks give 5 years (India deck) or 2 years (Pvt Ltd deck) for electrical parts, and the old FAQ says 1 year, so electrical warranty is left off the site.
-3. **Delivery chart years.** The site labels 19 / 67 / 102 cages as 2024 / 2025 / 2026.
-4. **Company history.** The decks say Frank Shields Pvt Ltd was "established in 2009 at Chennai Industrial Estate". The site only says the Indian company was set up as the group's manufacturing base, and doesn't give a year.
-5. **Phone numbers.** India +91 75580 80935 (also WhatsApp) and UAE +971 55 668 0935.
-6. **Non-magnetic equipment photos.** No usable photos of the wheelchairs, trolleys, drip stands, ladder or extinguisher were found, so these show icons for now. Add photos to `assets/img/` and they can be swapped in.
-7. **Gallery captions.** These name the UAE hospitals the photos came from (RAK, NMC, Health Point, ADC). Remove them if you'd rather not name clients.
-8. **Scanner brand names** appear as text only (no logos), with a trademark note.
+## Confirmed by Malcom (22 Nov 2026)
+- Enquiry email: info@frankshield.com
+- Warranty: 5 years
+- Cage counts (188, 24 states) are India only
+- No product photos exist for non-magnetic equipment; illustrations created (`assets/img/illus-*.svg`)
+
+## Still to confirm
+1. Delivery chart years: 19 / 67 / 102 are labelled 2024 / 2025 / 2026.
+2. Gallery captions name UAE hospitals (RAK, NMC, Health Point, ADC). Remove if you prefer not to name clients.
+3. Company founding year for Frank Shields Pvt Ltd (decks say 2009, Chennai) is not shown.
